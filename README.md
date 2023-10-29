@@ -28,15 +28,10 @@
 * Le launcher se mets à jour tout seul.
 *  Voir le status des services de Mojang.
 
+## DISCORD
 Tu-veux un launcher comme lui ?
 DISCORD : https://discord.gg/jXkTYzDwJc
 
 #### Aime le projet? Laisse une ⭐ étoile sur le GitHub !
-
-## Téléchargements
-
-Vous pouvez le télécharger depuis: [GitHub Releases](https://github.com/Vaxs02/Helix-Launcher/releases)
-
 ---
-
 ### Bon jeu.

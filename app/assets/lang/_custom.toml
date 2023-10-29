@@ -1,0 +1,18 @@
+[ejs.app]
+title = "Helix Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/Vaxs02/Helix-Launcher"
+mediaTwitterURL = "https://x.com/gael_hf01/"
+mediaInstagramURL = "https://instagram.com/gael___hf/"
+mediaYouTubeURL = "https://youtube.com/@vaxs_yt/"
+mediaDiscordURL = "https://discord.gg/jXkTYzDwJc"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
+supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+
+[ejs.welcome]
+welcomeHeader = "BIENVENUE SUR LE HELIX LAUNCHER"
+welcomeDescription = "Ceci est un exemple de launcher"
+welcomeDescCTA = "Vous êtes à quelque clique du jeu..."

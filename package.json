@@ -1,0 +1,51 @@
+{
+  "name": "helixlauncher",
+  "version": "2.0.5",
+  "productName": "Helix Launcher",
+  "description": "Le Launcher ULTIME",
+  "author": "Gaël Hébert-Furoy (https://github.com/Vaxs02) Daniel Scalzi (https://github.com/dscalzi/)",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/Vaxs02/Helix-Launcher",
+  "bugs": {
+    "url": "https://github.com/Vaxs02/Helix-Launcher/issues"
+  },
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder build",
+    "dist:win": "npm run dist -- -w",
+    "dist:mac": "npm run dist -- -m",
+    "dist:linux": "npm run dist -- -l",
+    "lint": "eslint --config .eslintrc.json ."
+  },
+  "engines": {
+    "node": "18.x.x"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.11",
+    "adm-zip": "^0.5.9",
+    "discord-rpc-patch": "^4.0.1",
+    "ejs": "^3.1.9",
+    "ejs-electron": "^2.1.1",
+    "electron-updater": "^6.1.4",
+    "fs-extra": "^11.1.1",
+    "github-syntax-dark": "^0.5.0",
+    "got": "^11.8.5",
+    "helios-core": "~2.0.5",
+    "helios-distribution-types": "^1.2.0",
+    "jquery": "^3.7.1",
+    "lodash.merge": "^4.6.2",
+    "semver": "^7.5.4",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^26.3.0",
+    "electron-builder": "^24.6.4",
+    "eslint": "^8.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+  }
+}

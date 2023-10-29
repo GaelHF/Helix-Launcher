@@ -1,0 +1,51 @@
+appId: 'helixlauncher'
+productName: 'Helix Launcher'
+artifactName: 'HelixLauncher-Installer.${ext}'
+
+copyright: 'Copyright © 2018-2022 Gael Hebert-Furoy & Daniel Scalzi'
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+
+extraResources:
+  - 'libraries'
+
+# Windows Configuration
+win: 
+  target: 
+    - target: 'nsis'
+      arch: 'x64'
+
+# Windows Installer Configuration
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: 'HelixLauncher-Installer.${ext}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux Configuration
+linux: 
+  target: 'AppImage'
+  maintainer: 'Gael Hebert-Furoy & Daniel Scalzi'
+  vendor: 'Gael Hebert-Furoy & Daniel Scalzi'
+  synopsis: 'Launcher Moddé'
+  description: 'Launcher permentent de lancer Minecraft avec des mods'
+  category: 'Game'
+
+
+directories:
+  buildResources: 'build'
+  output: 'dist'

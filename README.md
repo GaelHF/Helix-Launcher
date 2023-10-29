@@ -1,7 +1,7 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
 <h1 align="center">Helix Launcher</h1>
-<h1 align="center">Créateurs: Gaël Hébert-Furoy & Daniel Scalzi</h1>
+<h3 align="center">Créateurs: Gaël Hébert-Furoy & Daniel Scalzi</h3>
 
 <em><h5 align="center">(Electron Launcher)</h5></em>
 

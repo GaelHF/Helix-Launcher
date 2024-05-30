@@ -7,10 +7,6 @@
 
 <p align="center">Helix Launchers permets de lancer un jeu Minecraft et rejoindre un serveur avec des mods et Java déjà installer</p>
 
-![Screenshot 1](https://assets.vaxy-network.net/Login.png)
-![Screenshot 2](https://assets.vaxy-network.net/Lobby.png)
-![Screenshot 3](https://assets.vaxy-network.net/Paramètres.png)
-
 ## Fonctionnalitées
 
 * 🔒 Gestion complète de comptes.
@@ -27,10 +23,6 @@
   * Voir le nombre de joueur connecté.
 * Le launcher se mets à jour tout seul.
 *  Voir le status des services de Mojang.
-
-## DISCORD
-Tu-veux un launcher comme lui ?
-DISCORD : https://discord.gg/jXkTYzDwJc
 
 #### Aime le projet? Laisse une ⭐ étoile sur le GitHub !
 ---
